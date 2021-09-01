@@ -1,0 +1,42 @@
+def add(x,y):
+    result=x+y
+    return result 
+
+
+def sub(x,y):
+    result=x-y
+    return result 
+
+
+def mul(x,y):
+    result=x*y
+    return result 
+
+
+def div(x,y):
+    result=x/y
+    return result
+
+
+a=int(input("enter your 1st number:"))
+b=int(input("enter your 2nd number:"))
+c=str(input("enter your operator:"))
+
+if (c=='+'):
+    i=add(a,b)
+    print(i)
+    
+elif (c=='-'):
+    i=sub(a,b)
+    print(i)
+    
+elif(c=='*'):
+    i=mul(a,b)
+    print(i)
+    
+elif(c=='/'):
+    i=div(a,b)
+    print(i)
+    
+else:
+    print("not a valid selection ")
